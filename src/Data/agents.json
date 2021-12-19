@@ -2,6 +2,7 @@
     "jett": {
         "type": "duelist",
         "roles": ["dive", "operator"],
+        "triangle":[""],
         "abilities": {
             "updraft": "movement",
             "tailwind": "movement",
@@ -12,6 +13,7 @@
 
     "phoenix": {
         "type": "duelist",
+        "roles":["entry"],
         "abilities": {
             "curveball": "selfFlash",
             "hotHands": "zonalDmg",
@@ -22,6 +24,7 @@
 
     "reyna": {
         "type": "duelist",
+        "roles":["catalyst", "entry"],
         "abilities": {
             "devour":"selfBuff",
             "dismiss": "selfBuff",
@@ -34,6 +37,7 @@
 
     "yoru": {
         "type": "duelist",
+        "roles":["dive", "entry"],
         "abilities": {
             "blindside":"selfFlash",
             "gatecrash": "movement",
@@ -44,6 +48,7 @@
 
     "raze": {
         "type": "duelist",
+        "roles":["dive","operator"],
         "abilities":{
             "blastPack": "movement",
             "paintShells":"popDmg",
@@ -54,7 +59,7 @@
 
     "cypher": {
         "type": "sentinel",
-        "roles": ["anchor"],
+        "roles": ["anchor", "lurk"],
         "abilities": {
             "cyberCage": "smoke",
             "spycam":"passiveInfo",
@@ -65,7 +70,7 @@
 
     "sage": {
         "type": "sentinel",
-        "roles": ["anchor"],
+        "roles": ["anchor", "operator"],
         "abilities":{
             "slowOrb":"movementPrevent",
             "healingOrb": "externalHeal",
@@ -76,6 +81,7 @@
 
     "killjoy": {
         "type": "sentinel",
+        "roles":["lurk", "anchor"],
         "abilities":{
             "alarmbot": "passiveInfo",
             "turret": "passiveInfo",
@@ -86,6 +92,7 @@
 
     "chamber": {
         "type": "sentinel",
+        "roles": ["anchor"],
         "abilities":{
             "headhunter": "selfBuff",
             "rendezvous": "movement",
@@ -96,6 +103,7 @@
 
     "brimstone": {
         "type": "controller",
+        "roles":["smokes"],
         "abilities": {
             "incendiary": "zonalDmg",
             "skySmoke":"smoke",
@@ -106,16 +114,18 @@
 
     "omen": {
         "type": "controller",
+        "roles":["dive","catalyst","lurk", "operator", "smokes"],
         "abilities":{
-            "paranoia": "selfFlash",
+            "paranoia": "teamFlash",
             "darkCover": "smoke",
             "shroudedStep": "movement",
-            "fromTheShadows": "movement"
+            "fromTheShadows": "activeInfo"
         }
     },
 
     "viper": {
         "type": "controller",
+        "roles":["smokes"],
         "abilities":{
             "poisonCloud": "smoke",
             "toxicScreen": "barrier",
@@ -126,6 +136,7 @@
 
     "astra": {
         "type": "controller",
+        "roles":["smokes", "lurk"],
         "abilities":{
             "novaPulse": "concussion",
             "nebula": "smoke",
@@ -136,6 +147,7 @@
 
     "kayo": {
         "type": "initiator",
+        "roles": ["catalyst"],
         "abilites": { 
             "flashdrive": "selfFlash",
             "zeropoint": "activeInfo",
@@ -146,13 +158,38 @@
 
     "skye": {
         "type": "initiator",
+        "roles": ["catalyst", "flex"],
         "abilities": {
             "trailblazer": "proxy",
             "guidingLight": "teamFlash",
             "regrowth": "externalHeal",
             "seekers": "passiveInfo"
         }
+    },
+
+    "breach": {
+        "type": "initiator",
+        "roles": ["catalyst"],
+        "abilities": {
+            "flashpoint": "teamFlash",
+            "faultLine": "concussion",
+            "aftershock": "popDmg",
+            "rollingThunder": "concussion"
+        }
+    },
+
+    "sova": {
+        "type": "initiator",
+        "roles": ["flex"],
+        "abilities": {
+            "shockBolt": "popDmg",
+            "reconBolt": "activeInfo",
+            "owlDrone": "proxy",
+            "huntersFury": "concussion"
+        }
     }
+
+    
 
 
 
