@@ -1,0 +1,162 @@
+{
+    "jett": {
+        "type": "duelist",
+        "roles": ["dive", "operator"],
+        "abilities": {
+            "updraft": "movement",
+            "tailwind": "movement",
+            "cloudburst": "smokes",
+            "blade storm": "selfBuff"
+        }
+    },
+
+    "phoenix": {
+        "type": "duelist",
+        "abilities": {
+            "curveball": "selfFlash",
+            "hotHands": "zonalDmg",
+            "blaze": "barrier",
+            "runItBack": "selfBuff"
+        }
+    },
+
+    "reyna": {
+        "type": "duelist",
+        "abilities": {
+            "devour":"selfBuff",
+            "dismiss": "selfBuff",
+            "leer": "teamFlash",
+            "empress": "selfBuff"
+
+            
+        }
+    },
+
+    "yoru": {
+        "type": "duelist",
+        "abilities": {
+            "blindside":"selfFlash",
+            "gatecrash": "movement",
+            "fakeout": "proxy",
+            "dimensionalDrift": "movement"
+        }
+    },
+
+    "raze": {
+        "type": "duelist",
+        "abilities":{
+            "blastPack": "movement",
+            "paintShells":"popDmg",
+            "boomBot": "activeInfo",
+            "showstopper": "popDmg"
+        }
+    },
+
+    "cypher": {
+        "type": "sentinel",
+        "roles": ["anchor"],
+        "abilities": {
+            "cyberCage": "smoke",
+            "spycam":"passiveInfo",
+            "trapwire": "trap",
+            "neuralTheft": "passiveInfo"
+        }
+    },
+
+    "sage": {
+        "type": "sentinel",
+        "roles": ["anchor"],
+        "abilities":{
+            "slowOrb":"movementPrevent",
+            "healingOrb": "externalHeal",
+            "barrierOrb": "movementPrevent",
+            "resurrection": "externalHeal"
+        }
+    },
+
+    "killjoy": {
+        "type": "sentinel",
+        "abilities":{
+            "alarmbot": "passiveInfo",
+            "turret": "passiveInfo",
+            "nanoswarm": "zonalDmg",
+            "lockdown": "movementPrevent"
+        }
+    },
+
+    "chamber": {
+        "type": "sentinel",
+        "abilities":{
+            "headhunter": "selfBuff",
+            "rendezvous": "movement",
+            "trademark": "trap",
+            "tourDeForce": "selfBuff"
+        }
+    },
+
+    "brimstone": {
+        "type": "controller",
+        "abilities": {
+            "incendiary": "zonalDmg",
+            "skySmoke":"smoke",
+            "stimBeacon": "externalBuff",
+            "orbitalStrike": "zonalDmg"
+        }
+    },
+
+    "omen": {
+        "type": "controller",
+        "abilities":{
+            "paranoia": "selfFlash",
+            "darkCover": "smoke",
+            "shroudedStep": "movement",
+            "fromTheShadows": "movement"
+        }
+    },
+
+    "viper": {
+        "type": "controller",
+        "abilities":{
+            "poisonCloud": "smoke",
+            "toxicScreen": "barrier",
+            "snakeBite": "movementPrevent",
+            "vipersPit": "zonalDmg"
+        }
+    },
+
+    "astra": {
+        "type": "controller",
+        "abilities":{
+            "novaPulse": "concussion",
+            "nebula": "smoke",
+            "gravityWell": "movementPrevent",
+            "cosmicDivide": "barrier"
+        }
+    },
+
+    "kayo": {
+        "type": "initiator",
+        "abilites": { 
+            "flashdrive": "selfFlash",
+            "zeropoint": "activeInfo",
+            "fragment": "popDmg",
+            "nullCmd": "selfBuff"
+        }
+    },
+
+    "skye": {
+        "type": "initiator",
+        "abilities": {
+            "trailblazer": "proxy",
+            "guidingLight": "teamFlash",
+            "regrowth": "externalHeal",
+            "seekers": "passiveInfo"
+        }
+    }
+
+
+
+
+
+    
+}
