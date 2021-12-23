@@ -2,7 +2,7 @@
     "jett": {
         "type": "duelist",
         "roles": ["dive", "operator"],
-        "triangle":[""],
+        "triangle":["aggro", "aggro"],
         "abilities": {
             "updraft": "movement",
             "tailwind": "movement",
@@ -14,6 +14,7 @@
     "phoenix": {
         "type": "duelist",
         "roles":["entry"],
+        "triangle":["aggro","aggro"],
         "abilities": {
             "curveball": "selfFlash",
             "hotHands": "zonalDmg",
@@ -25,6 +26,7 @@
     "reyna": {
         "type": "duelist",
         "roles":["catalyst", "entry"],
+        "triangle":["aggro","midrange"],
         "abilities": {
             "devour":"selfBuff",
             "dismiss": "selfBuff",
@@ -38,6 +40,7 @@
     "yoru": {
         "type": "duelist",
         "roles":["dive", "entry"],
+        "triangle":["aggro", "control"],
         "abilities": {
             "blindside":"selfFlash",
             "gatecrash": "movement",
@@ -49,6 +52,7 @@
     "raze": {
         "type": "duelist",
         "roles":["dive","operator"],
+        "triangle":["aggro", "midrange"],
         "abilities":{
             "blastPack": "movement",
             "paintShells":"popDmg",
@@ -60,6 +64,7 @@
     "cypher": {
         "type": "sentinel",
         "roles": ["anchor", "lurk"],
+        "triangle": ["control", "control"],
         "abilities": {
             "cyberCage": "smoke",
             "spycam":"passiveInfo",
@@ -71,6 +76,7 @@
     "sage": {
         "type": "sentinel",
         "roles": ["anchor", "operator"],
+        "triangle":["control","midrange"],
         "abilities":{
             "slowOrb":"movementPrevent",
             "healingOrb": "externalHeal",
@@ -82,6 +88,7 @@
     "killjoy": {
         "type": "sentinel",
         "roles":["lurk", "anchor"],
+        "triangle":["control", "control"],
         "abilities":{
             "alarmbot": "passiveInfo",
             "turret": "passiveInfo",
@@ -104,6 +111,7 @@
     "brimstone": {
         "type": "controller",
         "roles":["smokes"],
+        "triangle":["midrange", "aggro"],
         "abilities": {
             "incendiary": "zonalDmg",
             "skySmoke":"smoke",
@@ -115,6 +123,7 @@
     "omen": {
         "type": "controller",
         "roles":["dive","catalyst","lurk", "operator", "smokes"],
+        "triangle":["aggro","control"],
         "abilities":{
             "paranoia": "teamFlash",
             "darkCover": "smoke",
@@ -126,6 +135,7 @@
     "viper": {
         "type": "controller",
         "roles":["smokes"],
+        "triangle": ["control", "aggro"],
         "abilities":{
             "poisonCloud": "smoke",
             "toxicScreen": "barrier",
@@ -159,6 +169,7 @@
     "skye": {
         "type": "initiator",
         "roles": ["catalyst", "flex"],
+        "triangle":["midrange", "midrange"],
         "abilities": {
             "trailblazer": "proxy",
             "guidingLight": "teamFlash",
@@ -170,6 +181,7 @@
     "breach": {
         "type": "initiator",
         "roles": ["catalyst"],
+        "triangle":["midrange", "midrange"],
         "abilities": {
             "flashpoint": "teamFlash",
             "faultLine": "concussion",
@@ -181,6 +193,7 @@
     "sova": {
         "type": "initiator",
         "roles": ["flex"],
+        "triangle":["midrange", "control"],
         "abilities": {
             "shockBolt": "popDmg",
             "reconBolt": "activeInfo",
